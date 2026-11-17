@@ -1,0 +1,23 @@
+tipo,tema,detalle,estado,como_cerrarlo
+conflicto,Norma que elimina el 30% para plataformas de juegos,Es la RG 5677/2025 (B.O. 16-abr-2025). La RG 5672/2025 (B.O. 14-abr-2025) trata la percepcion sobre compra de divisas para atesoramiento. La lista de plataformas esta en un anexo en imagen que no se pudo leer.,resuelto (alta),Leer el anexo del B.O. N 35649
+conflicto,Percepcion de Ganancias de nov-2023,"RG 5450/2023 (sancion 22-nov, B.O. 23-nov-2023): 100% Ganancias + 25% Bienes Personales + 30% PAIS = 155%.",resuelto (alta),
+conflicto,IVA 21% en 2026,"Cultura Geek (abr-2025), iProUP (ago-2026) y el feed de Steamcito hablan de IVA 21%, y la cifra de iProUP (1833/1520 = 1,206) lo confirma. Las compras propias con tarjeta de fintech (AstroPay) no muestran IVA: Steam cobro el precio exacto de la gondola y la tarjeta sumo 3,5%.",abierto,Compra con tarjeta de banco
+conflicto,"Tipo de cambio de SteamDB (349,98 el 25-oct-2023)","Rava: mayorista 350,10 (25-oct) y 349,95 (26-oct). Minorista 367,72 (dolarhistorico). Ninguno coincide exacto con 349,98.",abierto,Serie A3500 del BCRA
+conflicto,PAIS en dic-2023,"dolarhoy explica el 60% como 30% + 30%, pero cita alicuotas PAIS de 28,5% y 16,625% (RG 5464/2023) que no cuadran.",abierto,Texto de la RG 5464/2023
+conflicto,BNA el 13-dic-2023,"La Nacion informa venta 820 fija y un promedio de cierre de 832,64.",abierto,Serie oficial del BNA
+conflicto,PAIS de 8% (digitales) vs 30% (Steam),"Segun derechoenzapatillas (jul-2023) los servicios digitales pagados en pesos tributaban 8% y los personales, culturales y recreativos 30%. Cultura Geek (oct-2023) aplica 30% a Steam. Steamcito registra el cambio de 8% a 30% en abr-2021.",abierto (hipotesis: Steam como servicio recreativo),Norma o aviso de AFIP de 2020-2021
+hallazgo,Descriptor del comercio y recargo (24-mar-2026),"El mismo pedido por STEAMGAMES.COM salia $36.099,58 y por WL *STEAM PURCHASE $28.673,04 (ratio 1,259). Compatible con percepcion de 30% en el primero y comision de AstroPay de 3,5% en el segundo (1,30/1,035 = 1,256). Un solo caso.",hipotesis (media-baja),Compras con tarjeta de banco por ambos descriptores
+hallazgo,Comision de AstroPay,"Recarga de 10,00 USD cobrada 10,35 USD (3,5% de ""procesamiento internacional""). Coincide con la compra de Valheim.",confirmado (2 casos),
+hallazgo,Cartera de Steam en USD,En 2026 la cartera de una cuenta argentina esta en USD; en 2022 estaba en ARS.,confirmado (recibos),
+hallazgo,Factura de Steam en ARS (jun-2022),"Recarga de 400 pesos pagada con MasterCard, factura en ARS.",confirmado (1 caso),Falta el cargo en el resumen de la tarjeta de esa fecha
+hallazgo,Precio final = precio de lista menos descuento,"Elden Ring: 47,99 con 35% de descuento = 31,19 (el recibo no muestra el descuento; es inferido). Valheim: 14,99 con ~12% = 13,19. Descarta un supuesto recargo x1,20.",probable,Recibos de compras sin descuento
+hallazgo,Muestra del 13-nov-2026,105 juegos: mediana de Argentina = 58% del precio de EE. UU.; 15 cuestan igual; 29 de 101 siguen la matriz 2023 exacta; 0 de 26 con base de 50 USD o mas.,confirmado (muestra de los mas vendidos),Repetir la medicion en otras fechas
+hallazgo,Feed de Steamcito (curator),Las entradas se editan en el lugar: muestran la fecha de creacion (16-dic-2024) pero tienen marcas de tiempo de sep y nov de 2026. No guarda historial. Dolar Tarjeta y Bancario figuran con impuesto 21.,confirmado,Historial solo con capturas o con el repo de Steamcito
+hueco,Tasa con la que Valve convertia el precio en pesos a USD (2019 a nov-2023),Sin dato; no se puede calcular el costo real en tarjeta de ese periodo.,abierto,Resumenes de tarjeta antiguos
+hueco,Inicio de la matriz ARS de 2020,Solo se sabe que rigio hasta el 24-oct-2022.,abierto,Wayback Machine de SteamDB
+hueco,Cuando Steam volvio a cobrar IVA 21%,"Ausente en 2023, presente en 2025-2026 segun la prensa.",abierto,Resumenes de tarjeta de 2024 y 2025
+hueco,Ingresos Brutos y sellos provinciales,Solo mencionados; sin alicuotas verificadas.,abierto,
+hueco,Dolar A3500 y dolar del 12-nov-2026,No se pudo bajar la serie A3500 del BCRA.,abierto,Descargar la serie desde el sitio del BCRA
+hueco,Matriz de 2026,Solo se conoce el tier 59.99 (marzo 2026: FX 59.99; PPP 13.25; multivariable 28.25). El explorador de Valve es confidencial.,abierto,
+hueco,Cambio de Steam en oct-2026 (STEAMGAMES con IVA 21% e IIBB),Solo lo informa PCMRace.,abierto,Segunda fuente
+aviso,Alcance de los calculos de costo,"Usan la matriz LATAM-USD 2023, un solo dolar oficial por fecha y no incluyen Ingresos Brutos ni sellos. Los de 2026 suponen solo IVA 21%.",nota,
